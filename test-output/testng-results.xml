@@ -8,22 +8,19 @@
       <![CDATA[Browser is: Firefox]]>
     </line>
     <line>
-      <![CDATA[test data:admin]]>
-    </line>
-    <line>
-      <![CDATA[Google]]>
+      <![CDATA[HomePage is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-04T11:35:02 IST" name="Suite" finished-at="2023-05-04T11:35:15 IST" duration-ms="13381">
+  <suite started-at="2023-05-04T12:54:05 IST" name="Suite" finished-at="2023-05-04T12:54:23 IST" duration-ms="18049">
     <groups>
     </groups>
-    <test started-at="2023-05-04T11:35:02 IST" name="Test" finished-at="2023-05-04T11:35:15 IST" duration-ms="13381">
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@5a45133e]" started-at="2023-05-04T11:35:02 IST" name="preCondition" finished-at="2023-05-04T11:35:10 IST" duration-ms="8454" status="PASS">
+    <test started-at="2023-05-04T12:54:05 IST" name="Test" finished-at="2023-05-04T12:54:23 IST" duration-ms="18049">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@5a45133e]" started-at="2023-05-04T12:54:05 IST" name="preCondition" finished-at="2023-05-04T12:54:17 IST" duration-ms="12500" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[https://demo.actitime.com/login.do]]>
               </value>
             </param>
             <param index="1">
@@ -46,21 +43,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="demoTest1()[pri:0, instance:script.DemoTest@5a45133e]" started-at="2023-05-04T11:35:10 IST" name="demoTest1" finished-at="2023-05-04T11:35:14 IST" duration-ms="3946" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@5a45133e]" started-at="2023-05-04T12:54:17 IST" name="testValidLogin" finished-at="2023-05-04T12:54:22 IST" duration-ms="4376" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[test data:admin]]>
-            </line>
-            <line>
-              <![CDATA[Google]]>
+              <![CDATA[HomePage is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- demoTest1 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@5a45133e]" started-at="2023-05-04T11:35:14 IST" name="postCondition" finished-at="2023-05-04T11:35:15 IST" duration-ms="929" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@5a45133e]" started-at="2023-05-04T12:54:22 IST" name="postCondition" finished-at="2023-05-04T12:54:23 IST" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
